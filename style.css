@@ -1,0 +1,53 @@
+body{
+    background-color: chartreuse;
+}
+
+h1{
+ font-family: 'Times New Roman', Times, serif;
+ color: maroon;
+ background-color: cornflowerblue;
+}
+
+#score{
+    font-size: 30px;
+    float: left;
+}
+
+#timer{
+    font-size: 30px;
+    float: right;
+}
+
+#sketch{
+    color: red;
+    font-size: 30px;
+}
+
+#show_sketch{
+    float:right;
+    background-color: red;
+    font-size: 20px;
+}
+
+p{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+canvas{
+    border: 7px solid white;
+    border-radius: 10px;
+    margin-top: 150px;
+    box-shadow: 5px 5px 5px blue;
+    box-shadow: 1px 1px 38px yellow;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 20px blue;}
+    to{box-shadow: 1px 1px 50px yellow;}
+}
